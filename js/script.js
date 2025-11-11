@@ -5,6 +5,7 @@ console.log(x)
 
 //iteraciones
 const cielo = document.getElementById("cielo");
+
 for(let i = 0; i<5 ; i++){
     cielo.innerHTML += "⭐";
 }
@@ -32,3 +33,5 @@ const btnEstrella = document.getElementById("btnEstrella")
 btnEstrella.addEventListener("click", ()=> {
     cielo.innerHTML += "⭐";
 })
+
+//EVENTOS-----------------------------

@@ -1,0 +1,59 @@
+#nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    background-color: aquamarine;
+}
+
+#nav li{
+    margin: 5px;
+    padding: 10px 15px;
+}
+
+#nav li:hover{
+    background-color: aqua;
+}
+
+#nav a{
+    text-decoration: none;
+}
+
+/*modelo de caja*/
+.padre{
+    background-color: cornflowerblue;
+    padding: 20px;
+}
+
+.hijo{
+    background-color: aliceblue;
+    padding: 100px;
+    border: 10px solid black;
+    margin: 30%;
+}
+
+/*contenedor*/
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(195, 180, 160);
+    gap:1rem;
+}
+.card{
+    width: 200px;
+    background-color: #f9d2ab;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px black;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card p{
+    color: black;
+    background-color: rgba(0, 0, 0, 0.097);
+}

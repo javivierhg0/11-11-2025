@@ -66,3 +66,12 @@
     background-color: black;
     color: white;
 }
+
+pre{
+    text-align: left;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 80%;
+    color: greenyellow;
+}

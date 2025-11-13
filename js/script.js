@@ -33,5 +33,3 @@ const btnEstrella = document.getElementById("btnEstrella")
 btnEstrella.addEventListener("click", ()=> {
     cielo.innerHTML += "⭐";
 })
-
-//EVENTOS-----------------------------
